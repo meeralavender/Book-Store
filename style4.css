@@ -1,0 +1,171 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F1F6F9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #adf01e;
+    color: #FF6F91;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header .highlight {
+    color: #FF6F91;
+}
+
+/* Navigation */
+nav {
+    background-color: #F9A8D4;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Categories Section */
+#categories {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#categories h2 {
+    font-size: 2rem;
+    color: #FF6F91;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category {
+    background-color: #fff;
+    padding: 20px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category h3 {
+    color: #FF6F91;
+    font-size: 1.5rem;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+/* Countdown Section */
+#countdown {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+#timer {
+    font-size: 1.8rem;
+    color: #560606;
+}
+
+/* Footer */
+footer {
+    background-color: #FFCCE5;
+    color: #FF6F91;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fe2929;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.blink {
+    animation: blink 1s infinite step-start;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Registration Form */
+.registration-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    padding: 10px;
+    background-color: #FF6F91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #FF4C73;
+}
+
